@@ -1,0 +1,8 @@
+torch>=2.0.0
+torch-geometric
+transformers>=4.35.0
+biopython
+pronto
+tqdm
+numpy
+matplotlib
