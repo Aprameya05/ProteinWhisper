@@ -1,0 +1,10 @@
+{
+  "best_epoch": 5,
+  "fmax": 0.0504,
+  "precision": 0.0285,
+  "recall": 0.2188,
+  "eval_proteins": 500,
+  "training_proteins": 95597,
+  "go_terms": 38263,
+  "note": "Early stopping at epoch 5 gives best generalization"
+}

@@ -2,27 +2,33 @@
 
 **Zero-shot protein function annotation for the dark proteome.**
 
-ProteinWhisper predicts Gene Ontology (GO) function annotations for proteins
-with no known homologs — the ~35% of any proteome that existing tools cannot annotate.
+🔬 **Live demo:** https://huggingface.co/spaces/Aprameya05/ProteinWhisper
+
+## Results
+
+| Version | Architecture | Epochs | Fmax |
+|---------|-------------|--------|------|
+| V2 | ESM-2 + GOTermGNN + InfoNCE | 20 | 0.0008 |
+| V3 | ESM-2 + GOTermGNN + hard negatives | 3 | 0.0008 |
+| V4 | ESM-2 + classification head | 5 | **0.0504** |
+
+- V4 is 63x better than V2/V3
+- P53 validation: 13-16/20 correct GO terms including nucleus, transcription factor activity, DNA binding
 
 ## Architecture
 - **ESM-2 (650M)** — per-residue sequence embeddings
-- **GOTermGNN** — graph attention network over GO ontology DAG (38,263 terms)
-- **Cross-modal fusion** — residue self-attention + protein-GO cross-attention
-- **InfoNCE contrastive loss** — aligns protein representations to GO term space
-
-## What is novel
-No existing tool fuses ESM-2 sequence representations with GO ontology graph
-structure via contrastive learning for zero-shot dark proteome annotation.
+- **Residue self-attention** — contextualizes each position
+- **Attention pooling** — weighted protein-level representation
+- **Classification head** — direct prediction of 38,263 GO terms
 
 ## Training data
 - Swiss-Prot: 575,503 reviewed proteins
-- 51,711 training proteins with experimental GO annotations
+- 95,597 training proteins with experimental GO annotations
 - Gene Ontology: 38,263 non-obsolete terms
 
 ## Setup
 ```bash
-pip install -r requirements.txt
+pip install torch transformers biopython pronto
 ```
 
 ## Citation
