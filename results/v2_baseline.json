@@ -1,0 +1,13 @@
+{
+  "model": "ProteinWhisperV2",
+  "epochs": 20,
+  "training_proteins": 51711,
+  "final_loss": 9.6524,
+  "loss_drop": 0.467,
+  "p53_best_rank": 26,
+  "p53_top100_recall": 2,
+  "p53_true_terms": 115,
+  "fmax_200proteins": 0.0008,
+  "issue": "GO embedding collapse",
+  "fix": "hard negative mining"
+}
