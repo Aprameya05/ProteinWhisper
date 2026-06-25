@@ -1,0 +1,23 @@
+{
+  "v2": {
+    "epochs": 20,
+    "loss": 9.6524,
+    "fmax": 0.0008
+  },
+  "v3": {
+    "epochs": 3,
+    "loss": 5.5728,
+    "fmax": 0.0008
+  },
+  "v4": {
+    "epochs": 5,
+    "loss": 0.5036,
+    "fmax": 0.0661,
+    "precision": 0.0399,
+    "recall": 0.1929,
+    "p53_top20_correct": 16,
+    "p53_true_terms": 115
+  },
+  "finding": "Classification head (V4) resolves GO embedding collapse",
+  "next": "More epochs expected to push Fmax toward 0.15-0.25"
+}
