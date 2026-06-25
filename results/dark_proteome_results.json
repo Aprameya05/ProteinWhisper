@@ -1,0 +1,157 @@
+{
+  "A0A0R4IKT3": {
+    "desc": "Zebrafish \u2014 uncharacterized",
+    "length": 2634,
+    "top_predictions": [
+      [
+        "GO:0005634",
+        "Nucleus",
+        0.9989
+      ],
+      [
+        "GO:0005737",
+        "Cytoplasm",
+        0.9974
+      ],
+      [
+        "GO:0006357",
+        "Transcription by RNA Pol II",
+        0.9954
+      ],
+      [
+        "GO:0005829",
+        "Cytosol",
+        0.9953
+      ],
+      [
+        "GO:0000978",
+        "RNA Pol II promoter binding",
+        0.9939
+      ]
+    ]
+  },
+  "A0A1I8GTS4": {
+    "desc": "Human \u2014 uncharacterized",
+    "length": 349,
+    "top_predictions": [
+      [
+        "GO:0005634",
+        "Nucleus",
+        0.9999
+      ],
+      [
+        "GO:0005737",
+        "Cytoplasm",
+        0.9997
+      ],
+      [
+        "GO:0006357",
+        "Transcription by RNA Pol II",
+        0.9996
+      ],
+      [
+        "GO:0000978",
+        "RNA Pol II promoter binding",
+        0.9994
+      ],
+      [
+        "GO:0000981",
+        "DNA-binding transcription factor",
+        0.9993
+      ]
+    ]
+  },
+  "A0A2I2Y7J3": {
+    "desc": "Mouse \u2014 uncharacterized",
+    "length": 247,
+    "top_predictions": [
+      [
+        "GO:0005634",
+        "Nucleus",
+        0.9998
+      ],
+      [
+        "GO:0005737",
+        "Cytoplasm",
+        0.9998
+      ],
+      [
+        "GO:0005829",
+        "Cytosol",
+        0.9994
+      ],
+      [
+        "GO:0005886",
+        "Plasma membrane",
+        0.9992
+      ],
+      [
+        "GO:0005739",
+        "Mitochondrion",
+        0.9979
+      ]
+    ]
+  },
+  "A0A0A0MQR0": {
+    "desc": "E. coli \u2014 uncharacterized",
+    "length": 520,
+    "top_predictions": [
+      [
+        "GO:0005737",
+        "Cytoplasm",
+        0.982
+      ],
+      [
+        "GO:0005886",
+        "Plasma membrane",
+        0.9797
+      ],
+      [
+        "GO:0005829",
+        "Cytosol",
+        0.9784
+      ],
+      [
+        "GO:0005634",
+        "Nucleus",
+        0.9732
+      ],
+      [
+        "GO:0005739",
+        "Mitochondrion",
+        0.957
+      ]
+    ]
+  },
+  "A0A1Q3CA14": {
+    "desc": "Yeast \u2014 uncharacterized",
+    "length": 118,
+    "top_predictions": [
+      [
+        "GO:0005634",
+        "Nucleus",
+        1.0
+      ],
+      [
+        "GO:0005737",
+        "Cytoplasm",
+        0.9999
+      ],
+      [
+        "GO:0006357",
+        "Transcription by RNA Pol II",
+        0.9998
+      ],
+      [
+        "GO:0005829",
+        "Cytosol",
+        0.9998
+      ],
+      [
+        "GO:0000978",
+        "RNA Pol II promoter binding",
+        0.9997
+      ]
+    ]
+  }
+}
